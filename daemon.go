@@ -31,7 +31,7 @@ type Daemon struct {
 }
 
 func getToken() string {
-	token := os.Getenv("PUSHD_TOKEN")
+	token := os.Getenv("PUSHER_TOKEN")
 	return token
 }
 
